@@ -52,8 +52,17 @@
     .flow-row:nth-child(even) .flow-image { order: 2; }
     .flow-row:nth-child(even) .flow-text { order: 1; }
     
-    .flow-image { width: 100%; height: 400px; border-radius: 12px; border: 3px solid #ff5555; overflow: hidden; background: #1a1a1a; }
-    .flow-image img { width: 100%; height: 100%; object-fit: cover; }
+    .flow-image { 
+      width: 100%; 
+      height: 400px; 
+      border-radius: 12px; 
+      border: 3px solid #ff5555; 
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 120px;
+      background: linear-gradient(135deg, rgba(239,68,68,0.15), rgba(45,45,45,0.4));
+    }
     
     .flow-text h3 { font-family: 'Bebas Neue'; font-size: 32px; color: white; margin-bottom: 15px; text-transform: uppercase; }
     .flow-text p { font-size: 15px; color: #999; line-height: 1.8; margin-bottom: 15px; }
@@ -86,7 +95,7 @@
       .flow-row { grid-template-columns: 1fr; gap: 30px; margin-bottom: 60px; }
       .flow-row:nth-child(even) .flow-image { order: 0; }
       .flow-row:nth-child(even) .flow-text { order: 0; }
-      .flow-image { height: 300px; }
+      .flow-image { height: 300px; font-size: 80px; }
       .flow-text h3 { font-size: 24px; }
       .flow-text p { font-size: 14px; }
       
@@ -125,9 +134,7 @@
         <p>1-on-1 personalized coaching in Vista. Custom programs built for YOUR goals.</p>
         <p><span class="highlight">26+ years experience.</span> Real results. Private sessions.</p>
       </div>
-      <div class="flow-image">
-        <img src="https://images.unsplash.com/photo-1534368541272-195cdbb2b969?w=800&h=800&fit=crop" alt="Strength Training">
-      </div>
+      <div class="flow-image">💪</div>
     </div>
 
     <div class="flow-row">
@@ -136,9 +143,7 @@
         <p>Remote training for busy professionals. Flexible programs that fit your life.</p>
         <p><span class="highlight">Complete accountability.</span> Expert guidance. Real transformation.</p>
       </div>
-      <div class="flow-image">
-        <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&h=800&fit=crop" alt="Online Coaching">
-      </div>
+      <div class="flow-image">📱</div>
     </div>
 
     <div class="flow-row">
@@ -147,9 +152,7 @@
         <p>Personalized nutrition designed to fuel your performance and maximize results.</p>
         <p><span class="highlight">Custom meal planning.</span> Sports nutrition expertise. Sustainable change.</p>
       </div>
-      <div class="flow-image">
-        <img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?w=800&h=800&fit=crop" alt="Nutrition">
-      </div>
+      <div class="flow-image">🥗</div>
     </div>
   </section>
 
@@ -200,7 +203,7 @@
       </div>
     </div>
     <div style="text-align: center;">
-      <a href="tel:+19492790750" class="cta">Start Your Journey</a>
+      <a href="tel:+19492790750" class="cta">Start Your Journey 🔥</a>
     </div>
   </section>
 
